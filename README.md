@@ -46,8 +46,8 @@ Entrenamiento y Evaluación: El modelo se entrena en un conjunto de datos de ent
 ⚙️ Cómo Ejecutar el Proyecto
 Clonar el repositorio:
 
-```git clone <URL_DE_TU_REPOSITORIO>```
-cd <nombre_del_repositorio>
+```https://github.com/johansitoweb/Bioinformatica-Proyecto-Especial.git```
+```cd Bioinformatica-Proyecto-Especial```
 
 Instalar dependencias:
 
@@ -55,7 +55,7 @@ Instalar dependencias:
 
 Ejecutar el script:
 
-```python tu_script_de_bioinformatica.py ```
+```python Bioinformatica-Proyecto-Especial.ipynb ```
 
 (Asegúrate de que el archivo Python con el código esté en la misma carpeta).
 
