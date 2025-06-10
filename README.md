@@ -47,6 +47,7 @@ Entrenamiento y Evaluación: El modelo se entrena en un conjunto de datos de ent
 Clonar el repositorio:
 
 ```https://github.com/johansitoweb/Bioinformatica-Proyecto-Especial.git```
+
 ```cd Bioinformatica-Proyecto-Especial```
 
 Instalar dependencias:
