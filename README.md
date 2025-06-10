@@ -1,10 +1,10 @@
-Clasificación de Secuencias de ADN con Deep Learning
+## Clasificación de Secuencias de ADN con Deep Learning
 Este proyecto explora la aplicación de Deep Learning (aprendizaje profundo) con TensorFlow para un problema fundamental en bioinformática: la clasificación de secuencias de ADN. Demuestra cómo las redes neuronales convolucionales (CNNs) pueden identificar patrones complejos en datos genómicos, abriendo puertas a descubrimientos biológicos y aplicaciones en medicina.
 
-🧬 Introducción al Problema
+## 🧬 Introducción al Problema
 En bioinformática, las secuencias de ADN contienen información vital para la vida. Identificar y clasificar diferentes tipos de secuencias (por ejemplo, regiones codificantes de proteínas, sitios de unión a proteínas, o elementos reguladores) es un desafío crucial. Este proyecto aborda este problema construyendo un clasificador que aprende a distinguir patrones específicos dentro de secuencias de ADN.
 
-🎯 Objetivo del Proyecto
+## 🎯 Objetivo del Proyecto
 El objetivo principal de este proyecto es:
 
 Demostrar la capacidad de TensorFlow para construir modelos de Deep Learning aplicados a datos biológicos.
@@ -15,7 +15,7 @@ Comprender el preprocesamiento de datos genómicos (codificación one-hot).
 
 Evaluar la precisión del modelo en la identificación de diferentes tipos de secuencias.
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 Python: Lenguaje de programación principal.
 
 TensorFlow / Keras: Para la construcción y entrenamiento del modelo de Deep Learning.
@@ -26,14 +26,14 @@ Scikit-learn: Para preprocesamiento de datos (LabelEncoder) y división de conju
 
 Random: Para la generación de datos sintéticos.
 
-💡 Enfoque y Metodología
+## 💡 Enfoque y Metodología
 El proyecto sigue un enfoque estándar de Machine Learning:
 
 Generación de Datos Sintéticos: Para ilustrar el concepto, se generan secuencias de ADN artificiales de una longitud definida (50 bases). Estas secuencias se dividen en dos "clases" (Tipo A y Tipo B), donde cada clase tiende a contener un patrón de ADN específico (ATGCAT para Tipo A y GGGCCC para Tipo B). Esto simula la presencia de "motivos" biológicos que el modelo debe aprender a reconocer.
 
 Preprocesamiento de Secuencias: Las bases de ADN (A, T, G, C) se transforman mediante codificación One-Hot. Cada base se convierte en un vector binario único (ej., A = [1,0,0,0]), lo que permite que el modelo las interprete numéricamente sin asumir un orden.
 
-Construcción del Modelo CNN:
+## Construcción del Modelo CNN:
 
 Se utiliza una red neuronal convolucional 1D (Conv1D). Las CNNs son excepcionales para detectar patrones locales (conocidos como "motivos" en bioinformática) dentro de secuencias.
 
